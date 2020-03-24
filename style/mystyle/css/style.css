@@ -1,0 +1,124 @@
+/* sign in and create page */
+
+.sign-all{
+    position: relative;
+}
+.sign-all .sign-in{
+    width: 240px;
+    height: 332px;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+}
+.sign-in .logo-div{
+    width: 187.43px;
+    height: 40px;
+}
+.sign-in .logo-div .logo-img{
+    width: 100%;
+    height: 100%;
+}
+.form-sign-in .team-div{
+    display: flex;
+}
+.team-div .team-name{
+    width: 140px;
+    height: 44px;
+    top: calc(50% - 44px/2 - 74px);
+    background: #F3F5F6;
+    border: 1px solid #F3F5F6;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #A3AFB6;
+}
+.team-div .aidatoolkit{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 4px;
+    color: #000000;
+    cursor: pointer;
+}
+.form-sign-in .email-div{
+    margin: 10px 0;
+}
+.form-sign-in .email-div .sign-email-password{
+    width: 240px;
+    height: 44px;
+    background: #F3F5F6;
+    border-radius: 10px;
+    border: 1px solid #F3F5F6;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #A3AFB6; 
+}
+.sign-in .form-sign-in{
+    padding: 27px 0;
+}
+.form-sign-in .create-button .create-team{
+    width: 240px;
+    height: 44px;
+    background: #F1556B;
+    border: 1px solid #F1556B;
+    box-shadow: 0px 4px 10px rgba(216, 57, 79, 0.25);
+    border-radius: 10px;
+    font-family:'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 13px 0;
+    cursor: pointer;
+}
+.form-sign-in .sign-reset{
+    padding: 10px 0;
+}
+.sign-reset .sing-a{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #F1556B;
+    padding: 0 3px;
+}
+.sign-reset .sing-a:hover{
+    text-decoration: none;
+    color: #F1556B;
+}
+.form-sign-in input:focus{
+    outline: none;
+}
+
+/* password-reset page */
+
+.reset-div p{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+}
+.form-rest{
+    padding: 15px 0!important;
+}
