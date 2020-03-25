@@ -140,7 +140,7 @@
 
 
 .left-menu{
-    background-color: black;
+    background-color: #fff;
     width: 70px;
     height: 900px;
     position: fixed;
@@ -149,6 +149,46 @@
 .dashboard-img{
     width: 20px;
     height: 94px;
+    position: absolute;
+    top: -2%;
+    left: 50%;  
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+}
+.icon-left{
+    width: 70px;
+    height: 350px;
+    position: absolute;
+    top: 4%;
+    left: 50%;  
+    -ms-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+    background-color: #fff;
+}
+.icon-a{
+    display: block;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+
+}
+.icon-a:hover{
+    background-color: #F8F9FB;
+}
+.icon-a:hover .menu-icon-left{
+    color: #F1556B;
+}
+.menu-icon-left{
+    margin: 23px 0;
+    color: #D6DAE5;
+    font-size: 24px!important;
+    height: 24px;
+}
+.setting-div{
+    position: absolute;
+    bottom: 25%;
+    background-color: #fff;
 }
 
 
