@@ -107,6 +107,18 @@
     outline: none;
 }
 
+.sign-email-password:focus{
+    text-align: left!important;
+    padding-left: 20px;
+    transition: all .3s ease-in-out;
+}
+.team-name:focus{
+    text-align: left;
+    padding-left: 10px;
+    transition: all .3s ease-in-out;
+    
+}
+
 /* password-reset page */
 
 .reset-div p{
@@ -122,3 +134,24 @@
 .form-rest{
     padding: 15px 0!important;
 }
+
+
+/* Dashboard page */
+
+
+.left-menu{
+    background-color: black;
+    width: 70px;
+    height: 900px;
+    position: fixed;
+    z-index: 2;
+}
+.dashboard-img{
+    width: 20px;
+    height: 94px;
+}
+
+
+
+
+/* navbar */
