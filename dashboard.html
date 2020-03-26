@@ -30,49 +30,441 @@
         </div>
     </div>
 
-    <div class="dashboard-all">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="menu-all">
-                        <div class="project">Projects</div>
-                        <div class="a-links ">
-                            <a class=" link-a active" href="#">Active All <div class="link-number">12</div> </a>
-                            <a class=" link-a" href="#">Active My <div class="link-number">3</div></a>
-                            <a class=" link-a link-red" href="#">Requires attention <div class="link-number">8</div></a>
-                            <a class=" link-a" href="#">Finished</a>
-                            <a class=" link-a" href="#">On Hold</a>
-                            <a class=" link-a" href="#"> Archive</a>
-                        </div>
-                        <div class="users">
-                            <div class="user-name">David Morgan</div>
-                            <div class="user-img-div ">
-                                <img src="./style/mystyle/img/Rectangle 10.png" alt="" class="user-img">
+    <div class="dashboard-all  ">
+        <!-- menu -->
+        <div class="sticky-top stick-top">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="menu-all">
+                            <div class="project">Projects</div>
+                            <div class="a-links ">
+                                <a class=" link-a active" href="#">Active All <div class="link-number">12</div> </a>
+                                <a class=" link-a" href="#">Active My <div class="link-number">3</div></a>
+                                <a class=" link-a link-red" href="#">Requires attention <div class="link-number">8</div>
+                                </a>
+                                <a class=" link-a" href="#">Finished</a>
+                                <a class=" link-a" href="#">On Hold</a>
+                                <a class=" link-a" href="#"> Archive</a>
+                            </div>
+                            <div class="users">
+                                <div class="user-name">David Morgan</div>
+                                <div class="user-img-div ">
+                                    <img src="./style/mystyle/img/Rectangle 10.png" alt="" class="user-img">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="menu-section-2">
-                        <div class="search-div">
-                            <div class="input-group input-dashboard ">
-                                <div class="input-group-prepend">
-                                    <img class="input-group-text " src="./style/mystyle/img/Group 74.png" alt="">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="menu-section-2">
+                            <div class="search-div">
+                                <div class="input-group input-dashboard ">
+                                    <div class="input-group-prepend">
+                                        <img class="input-group-text " src="./style/mystyle/img/Group 74.png" alt="">
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Search by project name"
+                                        aria-label="Username" aria-describedby="basic-addon1">
                                 </div>
-                                <input type="text" class="form-control" placeholder="Search by project name"
-                                    aria-label="Username" aria-describedby="basic-addon1">
                             </div>
-                        </div>
-
-                        <div class="sort-div">
-                            
+                            <div class="sort-div">
+                                <div class="sort-select pr-3">
+                                    <button class="sort-button"><span> Sort tasks by</span>time expire <i
+                                            class="fas fa-chevron-down"></i></button>
+                                </div>
+                                <div class="humburger-icon pr-2"><button><img src="./style/mystyle/img/Group 93.png"
+                                            alt=""></button></div>
+                                <div class="prodict-icon "><button><img src="./style/mystyle/img/Group 92.png"
+                                            alt=""></button></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- project-team -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 ">
+                    <div class="team-cart">
+                        <div class="media">
+                            <img src="./style/mystyle/img/649e1c738c189557e58cf78e1ec21cfe 1.png" class="mr-3 team-img"
+                                alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 team-name">iPad 15” top secret announcement</h5>
+                                <h6 class="team-time">
+                                    11.05.2020
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="team-cart-line"></div>
+                        <div style="padding: 5px 15px;" class="alt">
+                            <h3 class="posting-on">
+                                Posting on:
+                            </h3>
+                            <div class="sosial-buttons">
+                                <button class="sosial-buttun facebook">Facebook</button>
+                                <button class="sosial-buttun instagram">Instagram</button>
+                                <button class="sosial-buttun youtobe">YouTube</button>
+                                <button class="sosial-buttun vkontact">Vkontakte</button>
+                                <button class="sosial-buttun twither">Twitter</button>
+                                <button class="sosial-buttun linkedin">LinkedIn</button>
+                            </div>
+                            <h3 class="posting-on">
+                                Project members:
+                            </h3>
+                            <div class="team-users">
+                                <img src="./style/mystyle/img/Rectangle 11.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 12.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 13.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 14.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 15.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 16.png" alt="" class="user-img">
+                            </div>
+                            <div class="ready-t0">
+                                Ready to go:
+                            </div>
+                            <div class="line-range-all">
+                                <div class="range-color"></div>
+                                <div class="range-number">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="team-cart">
+                        <div class="media">
+                            <img src="./style/mystyle/img/Group 112.png" class="mr-3 team-img"
+                                alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 team-name">iPad 15” top secret announcement</h5>
+                                <h6 class="team-time">
+                                    11.05.2020
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="team-cart-line"></div>
+                        <div style="padding: 5px 15px;" class="alt">
+                            <h3 class="posting-on">
+                                Posting on:
+                            </h3>
+                            <div class="sosial-buttons">
+                                <button class="sosial-buttun facebook">Facebook</button>
+                                <button class="sosial-buttun ">Instagram</button>
+                                <button class="sosial-buttun youtobe">YouTube</button>
+                                <button class="sosial-buttun vkontact">Vkontakte</button>
+                                <button class="sosial-buttun twither">Twitter</button>
+                                <button class="sosial-buttun linkedin">LinkedIn</button>
+                            </div>
+                            <h3 class="posting-on">
+                                Project members:
+                            </h3>
+                            <div class="team-users">
+                                <img src="./style/mystyle/img/Rectangle 11.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 12.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 13.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 14.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 15.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 16.png" alt="" class="user-img">
+                            </div>
+                            <div class="ready-t0">
+                                Ready to go:
+                            </div>
+                            <div class="line-range-all">
+                                <div class="range-color"></div>
+                                <div class="range-number">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="team-cart">
+                        <div class="media">
+                            <img src="./style/mystyle/img/Group 114 (1).png" class="mr-3 team-img"
+                                alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 team-name">iPad 15” top secret announcement</h5>
+                                <h6 class="team-time">
+                                    11.05.2020
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="team-cart-line"></div>
+                        <div style="padding: 5px 15px;" class="alt">
+                            <h3 class="posting-on">
+                                Posting on:
+                            </h3>
+                            <div class="sosial-buttons">
+                                <button class="sosial-buttun facebook">Facebook</button>
+                                <button class="sosial-buttun instagram">Instagram</button>
+                                <button class="sosial-buttun youtobe">YouTube</button>
+                                <button class="sosial-buttun vkontact">Vkontakte</button>
+                                <button class="sosial-buttun twither">Twitter</button>
+                                <button class="sosial-buttun linkedin">LinkedIn</button>
+                            </div>
+                            <h3 class="posting-on">
+                                Project members:
+                            </h3>
+                            <div class="team-users">
+                                <img src="./style/mystyle/img/Rectangle 11.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 12.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 13.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 14.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 15.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 16.png" alt="" class="user-img">
+                            </div>
+                            <div class="ready-t0">
+                                Ready to go:
+                            </div>
+                            <div class="line-range-all">
+                                <div class="range-color"></div>
+                                <div class="range-number">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="team-cart">
+                        <div class="media">
+                            <img src="./style/mystyle/img/Group 114.png" class="mr-3 team-img"
+                                alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 team-name">iPad 15” top secret announcement</h5>
+                                <h6 class="team-time">
+                                    11.05.2020
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="team-cart-line"></div>
+                        <div style="padding: 5px 15px;" class="alt">
+                            <h3 class="posting-on">
+                                Posting on:
+                            </h3>
+                            <div class="sosial-buttons">
+                                <button class="sosial-buttun facebook">Facebook</button>
+                                <button class="sosial-buttun instagram">Instagram</button>
+                                <button class="sosial-buttun youtobe">YouTube</button>
+                                <button class="sosial-buttun vkontact">Vkontakte</button>
+                                <button class="sosial-buttun twither">Twitter</button>
+                                <button class="sosial-buttun linkedin">LinkedIn</button>
+                            </div>
+                            <h3 class="posting-on">
+                                Project members:
+                            </h3>
+                            <div class="team-users">
+                                <img src="./style/mystyle/img/Rectangle 11.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 12.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 13.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 14.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 15.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 16.png" alt="" class="user-img">
+                            </div>
+                            <div class="ready-t0">
+                                Ready to go:
+                            </div>
+                            <div class="line-range-all">
+                                <div class="range-color"></div>
+                                <div class="range-number">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="team-cart">
+                        <div class="media">
+                            <img src="./style/mystyle/img/649e1c738c189557e58cf78e1ec21cfe 1.png" class="mr-3 team-img"
+                                alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 team-name">iPad 15” top secret announcement</h5>
+                                <h6 class="team-time">
+                                    11.05.2020
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="team-cart-line"></div>
+                        <div style="padding: 5px 15px;" class="alt">
+                            <h3 class="posting-on">
+                                Posting on:
+                            </h3>
+                            <div class="sosial-buttons">
+                                <button class="sosial-buttun facebook">Facebook</button>
+                                <button class="sosial-buttun instagram">Instagram</button>
+                                <button class="sosial-buttun ">YouTube</button>
+                                <button class="sosial-buttun ">Vkontakte</button>
+                                <button class="sosial-buttun ">Twitter</button>
+                                <button class="sosial-buttun linkedin">LinkedIn</button>
+                            </div>
+                            <h3 class="posting-on">
+                                Project members:
+                            </h3>
+                            <div class="team-users">
+                                <img src="./style/mystyle/img/Rectangle 11.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 12.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 13.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 14.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 15.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 16.png" alt="" class="user-img">
+                            </div>
+                            <div class="ready-t0">
+                                Ready to go:
+                            </div>
+                            <div class="line-range-all">
+                                <div class="range-color"></div>
+                                <div class="range-number">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="team-cart">
+                        <div class="media">
+                            <img src="./style/mystyle/img/649e1c738c189557e58cf78e1ec21cfe 1.png" class="mr-3 team-img"
+                                alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 team-name">iPad 15” top secret announcement</h5>
+                                <h6 class="team-time">
+                                    11.05.2020
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="team-cart-line"></div>
+                        <div style="padding: 5px 15px;" class="alt">
+                            <h3 class="posting-on">
+                                Posting on:
+                            </h3>
+                            <div class="sosial-buttons">
+                                <button class="sosial-buttun facebook">Facebook</button>
+                                <button class="sosial-buttun instagram">Instagram</button>
+                                <button class="sosial-buttun youtobe">YouTube</button>
+                                <button class="sosial-buttun vkontact">Vkontakte</button>
+                                <button class="sosial-buttun twither">Twitter</button>
+                                <button class="sosial-buttun linkedin">LinkedIn</button>
+                            </div>
+                            <h3 class="posting-on">
+                                Project members:
+                            </h3>
+                            <div class="team-users">
+                                <img src="./style/mystyle/img/Rectangle 11.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 12.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 13.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 14.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 15.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 16.png" alt="" class="user-img">
+                            </div>
+                            <div class="ready-t0">
+                                Ready to go:
+                            </div>
+                            <div class="line-range-all">
+                                <div class="range-color"></div>
+                                <div class="range-number">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="team-cart">
+                        <div class="media">
+                            <img src="./style/mystyle/img/649e1c738c189557e58cf78e1ec21cfe 1.png" class="mr-3 team-img"
+                                alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 team-name">iPad 15” top secret announcement</h5>
+                                <h6 class="team-time">
+                                    11.05.2020
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="team-cart-line"></div>
+                        <div style="padding: 5px 15px;" class="alt">
+                            <h3 class="posting-on">
+                                Posting on:
+                            </h3>
+                            <div class="sosial-buttons">
+                                <button class="sosial-buttun facebook">Facebook</button>
+                                <button class="sosial-buttun instagram">Instagram</button>
+                                <button class="sosial-buttun youtobe">YouTube</button>
+                                <button class="sosial-buttun vkontact">Vkontakte</button>
+                                <button class="sosial-buttun twither">Twitter</button>
+                                <button class="sosial-buttun linkedin">LinkedIn</button>
+                            </div>
+                            <h3 class="posting-on">
+                                Project members:
+                            </h3>
+                            <div class="team-users">
+                                <img src="./style/mystyle/img/Rectangle 11.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 12.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 13.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 14.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 15.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 16.png" alt="" class="user-img">
+                            </div>
+                            <div class="ready-t0">
+                                Ready to go:
+                            </div>
+                            <div class="line-range-all">
+                                <div class="range-color"></div>
+                                <div class="range-number">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+                    <div class="team-cart">
+                        <div class="media">
+                            <img src="./style/mystyle/img/649e1c738c189557e58cf78e1ec21cfe 1.png" class="mr-3 team-img"
+                                alt="...">
+                            <div class="media-body">
+                                <h5 class="mt-0 team-name">iPad 15” top secret announcement</h5>
+                                <h6 class="team-time">
+                                    11.05.2020
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="team-cart-line"></div>
+                        <div style="padding: 5px 15px;" class="alt">
+                            <h3 class="posting-on">
+                                Posting on:
+                            </h3>
+                            <div class="sosial-buttons">
+                                <button class="sosial-buttun facebook">Facebook</button>
+                                <button class="sosial-buttun instagram">Instagram</button>
+                                <button class="sosial-buttun youtobe">YouTube</button>
+                                <button class="sosial-buttun vkontact">Vkontakte</button>
+                                <button class="sosial-buttun twither">Twitter</button>
+                                <button class="sosial-buttun linkedin">LinkedIn</button>
+                            </div>
+                            <h3 class="posting-on">
+                                Project members:
+                            </h3>
+                            <div class="team-users">
+                                <img src="./style/mystyle/img/Rectangle 11.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 12.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 13.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 14.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 15.png" alt="" class="user-img">
+                                <img src="./style/mystyle/img/Rectangle 16.png" alt="" class="user-img">
+                            </div>
+                            <div class="ready-t0">
+                                Ready to go:
+                            </div>
+                            <div class="line-range-all">
+                                <div class="range-color"></div>
+                                <div class="range-number">13%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- modal button -->
+        <div class="button-open">
+            <button class="click-open-close">
+                <i class="fas fa-plus" ></i>
+            </button>
+        </div>
+
     </div>
 
 

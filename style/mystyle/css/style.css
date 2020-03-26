@@ -186,8 +186,8 @@
     height: 24px;
 }
 .setting-div{
-    position: absolute;
-    bottom: 25%;
+    position: fixed;
+    bottom:5px;
     background-color: #fff;
 }
 
@@ -195,10 +195,13 @@
 .dashboard-all{
     width: calc(100% - 70px);
     background-color: #F8F9FB;
-    height: 600px;
     margin-left: 70px;
 }
 /* menu section-1 */
+.stick-top{
+    background-color: #F8F9FB; 
+    height: 149px;
+}
 .user-img-div{
     width: 40px;
     height: 40px;
@@ -302,4 +305,235 @@
     padding: 9px 9px;
     border: 1px solid white;
 }
+.sort-button{
+    width: 174px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(230, 234, 241, 0.25);
+    border-radius: 10px;
+    border: 1px solid white;
+  
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+}
+.sort-button span {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #D6DAE5;  
+    padding-right: 5px;
+}
+.humburger-icon button{
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(230, 234, 241, 0.25);
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.prodict-icon button{
+    width: 40px;
+    height: 40px;
+    background: #D6DAE5;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.sort-div{
+    display: flex;
+}
+.menu-section-2{
+    display: flex;
+    justify-content: space-between;
+}
+button:active {
+    outline: none;
+    border: none;
+}
+ 
+button:focus {outline:0;}
 
+/* project team cart */
+
+.team-cart{
+    width: 100%;
+    height: 366px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(230, 234, 241, 0.25);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.media{
+    padding: 15px;
+}
+.team-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.team-name{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.team-time{
+    color: #D6DAE5;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2px;
+}
+.team-cart-line{
+    width: 100%;
+    height: 0px;
+    border: 1px solid rgba(64, 92, 133, 0.05);
+    margin: 13px 0;
+}
+.posting-on{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+.sosial-buttons{
+    margin-bottom: 15px;
+}
+.sosial-buttun{
+    width: 70px;
+    height: 22px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #D6DAE5;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #D6DAE5;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.user-img{
+    width: 30px;
+    height: 30px;
+    background-blend-mode: normal;
+    border-radius: 8px;
+}
+.ready-t0{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin: 12px 0;
+}
+
+.line-range-all{
+    width: 100%;
+    height: 2px;
+    background: #D6DAE5;
+    border-radius: 300px;
+    position: relative;
+    margin-top: 24px;
+}
+.range-color{
+    position: absolute;
+    width: 36px;
+    height: 2px;
+    background: #F1556B;
+    border-radius: 300px;
+}
+.range-number{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    color: #F1556B;
+    position: absolute;
+    top: -15px;
+    left: 30px;
+}
+.facebook{
+    background: #576EA5;
+    box-shadow: 0px 4px 10px rgba(87, 110, 165, 0.1);
+    border-radius: 6px;
+    color: white;
+    border-color:#576EA5;
+}
+.instagram{
+    background: linear-gradient(109.25deg, #7743BA 6.44%, #ED4B61 97.43%);
+    box-shadow: 0px 4px 10px rgba(221, 59, 102, 0.1);
+    border-radius: 6px;
+    color: white;
+    border-color:linear-gradient(109.25deg, #7743BA 6.44%, #ED4B61 97.43%) ;
+}
+.youtobe{
+    background: #FF0000;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.1);
+    border-radius: 6px;
+    color:white ;
+    border-color:#FF0000;
+}
+.vkontact{
+    background: #5181B8;
+    box-shadow: 0px 4px 10px rgba(87, 110, 165, 0.1);
+    border-radius: 6px;
+    color: white;
+    border-color: #5181B8;
+}
+.twither{
+    background: #41ABE1;
+    box-shadow: 0px 4px 10px rgba(87, 110, 165, 0.1);
+    border-radius: 6px;
+    color: white;
+    border-color:#41ABE1 ;
+}
+.linkedin{
+    background: #006394;
+    box-shadow: 0px 4px 10px rgba(87, 110, 165, 0.1);
+    border-radius: 6px;
+    color: white;
+    border-color:#006394 ;
+}
+.button-open{
+    position: relative;
+}
+.click-open-close{
+    width: 52px;
+    height: 52px;
+    background: #F1556B;
+    box-shadow: 0px 4px 10px rgba(216, 57, 79, 0.25);
+    border-radius: 50px;
+    border-color: rgba(216, 57, 79, 0.25);
+    position: absolute;
+    bottom: 30px;
+    position: fixed;
+    right: 15px;
+    cursor: pointer;
+}
+.fa-plus{
+    color: white;
+}
+.click-open-close:focus .fa-plus{
+    transform: rotate(43deg);
+    transition: all .3s ease-in-out;
+}
