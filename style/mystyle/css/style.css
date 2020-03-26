@@ -1,5 +1,8 @@
 /* sign in and create page */
-
+.register{
+    -ms-transform: translate(-50%, 30%)!important;
+    transform: translate(-50%, 30%)!important;
+}
 .sign-all{
     position: relative;
 }
