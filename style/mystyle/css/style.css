@@ -173,12 +173,12 @@
     height: 70px;
     text-align: center;
 }
-.icon-a:hover{
-    background-color: #F8F9FB;
+.icon-active{
+    background-color: #F8F9FB!important;
 }
-.icon-a:hover .menu-icon-left{
-    color: #F1556B;
-}
+.i-active{
+    color: #F1556B!important;
+} 
 .menu-icon-left{
     margin: 23px 0;
     color: #D6DAE5;
@@ -531,9 +531,15 @@ button:focus {outline:0;}
     cursor: pointer;
 }
 .fa-plus{
-    color: white;
+    color: white;    
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    transition: all .3s ease-in-out;
 }
-.click-open-close:focus .fa-plus{
+.fas-change{
     transform: rotate(43deg);
     transition: all .3s ease-in-out;
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
 }
