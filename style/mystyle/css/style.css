@@ -375,6 +375,14 @@ button:focus {outline:0;}
 }
 .media{
     padding: 15px;
+    position: relative;
+}
+.user-project-edit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #F1556B;
+    cursor: pointer;
 }
 .team-img{
     width: 60px;
@@ -676,32 +684,7 @@ button:focus {outline:0;}
 
 
   /* three card create project modal */
-/* .three-card-project{
-    position: fixed; 
-    width: 100%; 
-    height: 100%; 
-    background: rgba(192, 200, 216, 0.7); 
-    z-index: 6666; 
-    top: 0;
-}
-.project-left{
-    height: auto; 
-    position: relative; 
-    top:0; width: 75%; 
-    background-color: #FFFFFF;
-    box-shadow: 0px 2px 5px rgba(31, 48, 81, 0.05);
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    z-index: 7777; 
-    position: fixed;
-}
-.project-logo-card{
-    position: absolute; 
-    top: 0; 
-    border-right: 1px solid rgba(64, 92, 133, 0.15);
-    height: 100%; 
-    width: 70px;
-} */
+
 .create-project-card-img-div{
     width: 20px;
     height: 94px;
@@ -726,6 +709,7 @@ button:focus {outline:0;}
     border:1px solid #F1556B!important;
     color: #ffffff;
     cursor: pointer;
+    
 }
 
 .curent-div{
@@ -737,6 +721,7 @@ button:focus {outline:0;}
     width: 100%;
     height: 100%;
     object-fit: contain;
+    cursor: pointer;
 }
 .label-name{
     font-family: 'PT Sans', sans-serif;
@@ -803,6 +788,7 @@ button:focus {outline:0;}
     font-size: 12px;
     line-height: 30px;
     color: #F1556B;
+    cursor: pointer;
 }
 .flow-butoon{
     background: #E9F9D5;
@@ -919,6 +905,7 @@ input[type="range" i] {
     color: #D6DAE5;
     width: 140px;
     height: 36px;
+    cursor: pointer;
 }
 .start-project-button{
     border: 1px solid #D6DAE5;
@@ -936,4 +923,116 @@ input[type="range" i] {
     background: #F1556B;
     box-shadow: 0px 4px 10px rgba(216, 57, 79, 0.25);
     border-radius: 10px;
+    cursor: pointer;
+}
+.rang-nu{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: right;
+    color: #888888;
+}
+.create-project-body{
+    
+}
+/* edit */
+
+.edit-curent-div{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+}
+.edit-create-img-cureent{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+.edit-button-img{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border: 1px solid #F1556B;
+    background: #F1556B;
+    border-radius: 150px;
+    color: white;
+    font-size: 8px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.edit-files{
+    display: flex;
+}
+.edit-curent-div-file{
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.edit-file-name{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #818BA7;
+    margin-top: 5px;
+}
+.edit-file-begin{
+    margin-right: 10px;
+}
+.Assigment-edit{
+    width: 100%;
+    height: auto;
+    background: #F3F5FA;
+    border-radius: 8px;
+    border: 1px solid #F3F5FA;
+    padding:10px 10px ;
+    position: relative;  
+}
+.edit-user-delete{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(179, 185, 202, 0.05);
+    border-radius: 6px;
+    border:1px solid #fff ;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #818BA7;
+    height: 22px;  
+    margin: 5px 5px;
+}
+.delete-edit-user{
+    cursor: pointer;
+}
+.edit-time{
+    background: #F1F2F6;
+    box-shadow: 0px 1px 1px rgba(179, 185, 202, 0.05);
+    border-radius: 6px;
+    font-family: 'PT Sans', sans-serif;
+    border: 1px solid #F1F2F6;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #818BA7;
+    height: 22px;
+    width: 62px;
+    margin:5px 7px;
+    cursor: pointer;
+}
+.edit-projeect-close-button{
+    width: 40px;
+    height: 40px;
+    background:  #7AA93F!important;
+    box-shadow: 0px 4px 20px rgba(31, 48, 81, 0.05);
+    border-radius: 45px;
+    border:1px solid #7AA93F!important;
+    color: #ffffff;
+    cursor: pointer;
 }
