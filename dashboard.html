@@ -422,14 +422,175 @@
 
         <!-- modal button -->
         <div class="button-open" data-dismiss="modal" aria-hidden="true" data-toggle="modal"
-            data-target=".bd-example-modal-sm">
+            data-target="#exampleModalLong">
             <div class="btn-menu click-open-close btn-menu_active ">
                 <span></span>
             </div>
         </div>
 
-        <!-- modal -->
-        <div class="modal fade bd-example-modal-sm modall-blue" data-backdrop="static" tabindex="-1" role="dialog"
+
+        <div class="modal fade" id="exampleModalLong" data-backdrop="static" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog create-project" role="document">
+                <div class="modal-content modal-oz">
+                    <div class="modal-left-logog">
+                        <div class="create-project-card-img-div">
+                            <img class="create-project-card-img" src="./style/mystyle/img/dashboard-logo.png" alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="">
+                        <button type="button" class="close create-projeect-close-button" data-dismiss="modal">
+                            <span aria-hidden="true" class="text-white">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="create-project-important-all">
+                            <div class="important-project">
+                                <div class="container">
+                                    <div class="row ">
+                                        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                                            <div class="curent-div">
+                                                <img src="./style/mystyle/img/Group 152.png" alt=""
+                                                    class="create-img-cureent">
+                                            </div>
+                                        </div>
+                                        <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                                            <div class="">
+                                                <div class="form-row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="validationCustom03" class="label-name">Project
+                                                            name</label>
+                                                        <input type="text" class="form-control create-project-input"
+                                                            placeholder="Project bla bla bla" id="validationCustom03"
+                                                            required>
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <label class="label-name" for="validationCustom04">Start
+                                                            date</label>
+                                                        <input type="date" value="2000-01-01"
+                                                            class="form-control create-project-input"
+                                                            id="validationCustom03" r>
+                                                    </div>
+                                                    <div class="col-md-3 mb-3">
+                                                        <label class="label-name" for="validationCustom05">Completion
+                                                            date</label>
+                                                        <input type="date" class="form-control create-project-input "
+                                                            value="2000-01-01" id="validationCustom05">
+                                                    </div>
+                                                    <div class="col-md-12 mb-3">
+                                                        <label class="label-name" for="validationCustom05">BRIEF</label>
+                                                        <textarea name="" class="form-control create-project-input-big"
+                                                            id="" cols="30" rows="4"
+                                                            placeholder="Describe the project and goals in detail"></textarea>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="create-project-title mb-2">
+                                                            BRIEF FILES
+                                                        </div>
+                                                        <p class="create-project-content">
+                                                            For a more detailed explanation of the project, you can
+                                                            attach files
+                                                            that will help your colleagues work more productively. You
+                                                            can download
+                                                            any document format except html-code.
+                                                        </p>
+                                                        <button class="create-project-dhash-button mb-3">click or drag
+                                                            files to
+                                                            attach</button>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="validationCustom03" class="label-name">Assigness 
+                                                        </label>
+                                                        <input type="text" class="form-control create-project-input"
+                                                            placeholder="Start typing an employee's last name or nickname"
+                                                            id="validationCustom03" required>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="validationCustom03" class="label-name">Manager
+                                                        </label>
+                                                        <input type="text" class="form-control create-project-input"
+                                                            placeholder="Start typing an employee's last name or nickname"
+                                                            id="validationCustom03" required>
+                                                    </div>
+                                                    <div class="col-md-12 mb-2">
+                                                        <div class="create-project-title mb-2">
+                                                            FLOW
+                                                        </div>
+                                                        <button class="flow-butoon">Start project </button>
+                                                        <button class="flow-butoon">Briefing <i
+                                                                class="fas fa-times"></i></button>
+                                                        <button class="flow-butoon">Briefing files <i
+                                                                class="fas fa-times"></i></button>
+                                                        <button class="flow-butoon">Concept <i
+                                                                class="fas fa-times"></i></button>
+                                                        <button class="flow-butoon">Design <i
+                                                                class="fas fa-times"></i></button>
+                                                        <button class="flow-butoon">Copywriting <i
+                                                                class="fas fa-times"></i></button>
+                                                        <button class="flow-butoon">Motion design <i
+                                                                class="fas fa-times"></i></button>
+                                                        <button class="flow-butoon">Video production <i
+                                                                class="fas fa-times"></i></button>
+                                                        <button class="flow-butoon">Brand marketing <i
+                                                                class="fas fa-times"></i></button>
+                                                        <button class="flow-plus">+</button>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="create-project-title mb-2">
+                                                            POSTING ON
+                                                        </div>
+                                                        <div class="project-create-sosial">
+                                                            <button class="create-p-sosial">Facebook</button>
+                                                            <button class="create-p-sosial">Instagram</button>
+                                                            <button class="create-p-sosial">YouTube</button>
+                                                            <button class="create-p-sosial">Vkontakte</button>
+                                                            <button class="create-p-sosial">Twitter</button>
+                                                            <button class="create-p-sosial">LinkedIn</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3 mt-3">
+                                                        <label for="customRange1" class="range-label">Total publications
+                                                        </label>
+                                                        <input type="range" min="0" max="110" class="custom-range" id="customRange1">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3 mt-3">
+                                                        <label for="customRange1" class="range-label">Publication A DAY
+                                                        </label>
+                                                         <input type="range" min="0" max="110" class="custom-range" id="customRange1">
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button  class=" btn delete-project-button">Delete project</button>
+                            <button type="button" class="btn start-project-button">Start project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- modal -->
+    <!-- <div class="modal fade bd-example-modal-sm modall-blue" data-backdrop="static" tabindex="-1" role="dialog"
             aria-labelledby="mySmallModalLabel" aria-hidden="true">
             <div class="modal-create-three">
                 <div class="modal-dialog modal-sm modal-create" role="document">
@@ -488,12 +649,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-    </div>
+
 
     <!-- open 3card create project -->
-    <div class="three-card-project">
+    <!-- <div class="three-card-project">
         <div class="project-left " role="dialog">
             <div class="project-logo-card">
                 <div class="create-project-card-img-div">
@@ -608,14 +769,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
-        <script src="./style/bootstrap/jquery/jquery-3.4.1.min.js"></script>
-        <script src="./style/bootstrap/jquery/popper.min.js"></script>
-        <script src="./style/bootstrap/js/bootstrap.min.js"></script>
-        <script src="./style/font_awesome/js/all.min.js"></script>
-        <script src="./style/mystyle/js/style.js"></script>
+    <script src="./style/bootstrap/jquery/jquery-3.4.1.min.js"></script>
+    <script src="./style/bootstrap/jquery/popper.min.js"></script>
+    <script src="./style/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./style/font_awesome/js/all.min.js"></script>
+    <script src="./style/mystyle/js/style.js"></script>
 
 </body>
 

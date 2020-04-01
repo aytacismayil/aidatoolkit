@@ -676,7 +676,7 @@ button:focus {outline:0;}
 
 
   /* three card create project modal */
-.three-card-project{
+/* .three-card-project{
     position: fixed; 
     width: 100%; 
     height: 100%; 
@@ -701,7 +701,7 @@ button:focus {outline:0;}
     border-right: 1px solid rgba(64, 92, 133, 0.15);
     height: 100%; 
     width: 70px;
-}
+} */
 .create-project-card-img-div{
     width: 20px;
     height: 94px;
@@ -720,19 +720,14 @@ button:focus {outline:0;}
 .create-projeect-close-button{
     width: 40px;
     height: 40px;
-    background: #F1556B;
+    background: #F1556B!important;
     box-shadow: 0px 4px 20px rgba(31, 48, 81, 0.05);
     border-radius: 45px;
-    border:1px solid #F1556B;
+    border:1px solid #F1556B!important;
     color: #ffffff;
     cursor: pointer;
 }
-.create-project-important-all{
-   
-}
-.important-project{
-    padding: 50px 110px;
-}
+
 .curent-div{
     width: 60px;
     height: 60px;
@@ -855,4 +850,90 @@ button:focus {outline:0;}
     text-align: center;
     color: #818BA7;
     cursor: pointer;
+}
+
+.create-project{
+   max-width: 75%!important;
+   margin: 0;
+}
+.modal-oz{
+    box-shadow: 0px 2px 5px rgba(31, 48, 81, 0.05);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;   
+    background-color: #FFFFFF;
+    padding: 20px 20px;
+    position: relative;
+}
+.project-logo-card{
+    position: absolute; 
+    top: 0; 
+    border-right: 1px solid rgba(64, 92, 133, 0.15);
+    height: 100%; 
+    width: 70px;
+}
+.modal-body{
+    padding: 5px 70px;
+}
+.modal-left-logog{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    border-right: 1px solid rgba(64, 92, 133, 0.15);
+}
+.close{
+    opacity: 8.1;
+}
+.range-label{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.custom-range{
+    height: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0!important;
+    border-color:#DFDFE1 ;
+}
+input[type="range" i] {
+    color:#DFDFE1 ;
+}
+.delete-project-button{
+    border: 1px solid #D6DAE5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #D6DAE5;
+    width: 140px;
+    height: 36px;
+}
+.start-project-button{
+    border: 1px solid #D6DAE5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    width: 140px;
+    height: 36px;
+    background: #F1556B;
+    box-shadow: 0px 4px 10px rgba(216, 57, 79, 0.25);
+    border-radius: 10px;
 }
