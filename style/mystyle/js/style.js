@@ -15,14 +15,17 @@ $(document).ready(function(){
   cl.addEventListener('click',myFunction);
 
   function myFunction() {
+    
     var x = document.getElementById("myDIV");
     var y = document.getElementById("myDIVc");
-    if ((x.style.display === "none") &&(y.style.display === "block")) {
+    if ((x.style.display === "none") && (y.style.display === "block")) {
       x.style.display = "block";
       y.style.display = "none";
+      cl.style.backgroundColor = "#FFFFFF";
     } else {
       x.style.display = "none";
       y.style.display = "block";
+      cl.style.backgroundColor = "#7AA93F";
     }
   }
 
