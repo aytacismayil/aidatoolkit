@@ -205,6 +205,7 @@
 .user-img-div{
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 .profile-img{
     width: 100%;
