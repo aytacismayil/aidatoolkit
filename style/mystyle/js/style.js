@@ -11,5 +11,18 @@ $(document).ready(function(){
     
   });
 
+  var cl=document.querySelector('.commit-cange-button');
+  cl.addEventListener('click',myFunction);
 
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    var y = document.getElementById("myDIVc");
+    if ((x.style.display === "none") &&(y.style.display === "block")) {
+      x.style.display = "block";
+      y.style.display = "none";
+    } else {
+      x.style.display = "none";
+      y.style.display = "block";
+    }
+  }
 

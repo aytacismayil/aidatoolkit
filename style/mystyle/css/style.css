@@ -681,7 +681,9 @@ button:focus {outline:0;}
   .card-input-three:focus{
     outline: none;
   }
-
+.start-project-button:hover{
+   color: #F1F2F6;
+}
 
   /* three card create project modal */
 
@@ -808,11 +810,11 @@ button:focus {outline:0;}
     cursor: pointer;
 }
 .flow-plus{
-    background: #F1556B;
+    background: #F1556B!important;
     border-radius: 6px;
     color: white;
     cursor: pointer;
-    border: 1px solid #F1556B;
+    border: 1px solid #F1556B!important;
     font-size: 12px;
     line-height: 13px;
     text-align: center;
@@ -1035,4 +1037,229 @@ input[type="range" i] {
     border:1px solid #7AA93F!important;
     color: #ffffff;
     cursor: pointer;
+}
+
+/* comment */
+.project-coment-div{
+    width: 40px;
+    height: 40px;
+}
+.coment-project-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.coment-project-div{
+    display: flex;
+}
+.coment-name{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    color: #000000;
+}
+.coment-project-name{
+    margin-left: 10px;
+}
+.coment-project-name h6{
+    font-family: 'PT Sans' ,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 6px;
+    color: #888888;
+}
+.coment-title .h3{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 15px;
+}
+.coment-title h6{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #888888;
+}
+.name-img-center div{
+    width: 60px;
+    height: 60px;   
+    border-radius: 8px;
+}
+.name-img-center img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.name-img-center h6{
+    font-family: 'PT Sans' ,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #818BA7;    
+}
+.name-img-center{
+    margin-right:10px ;
+}
+.commit-img-prfiele{
+    display: flex;
+}
+.user-commit-media .media img{
+    width: 30px;
+    height: 30px;
+}
+.user-commit-media .media .media-body h5{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;  
+    color: #000000;    
+}
+.user-commit-media .media .media-body p{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #888888;    
+}
+.user-commit-media .media .media-body h6{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 8px;
+    color: #888888;
+}
+.comm-line{
+    width: 100%;
+    border: 1px solid rgba(64, 92, 133, 0.05);
+    height: 0px;
+    margin: 10px 0;
+}
+.commit-number {
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    cursor: pointer;
+    color: #F1556B;    
+}
+.start-and-due-data{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;   
+}
+.due-date h6{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;  
+    color: #F1556B;   
+    font-weight: bold; 
+}
+.due-date{
+    margin-top: 50px;
+}
+.posting-button h2{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;    
+}
+.button-div button{
+    background: #F1F2F6;
+    box-shadow: 0px 1px 1px rgba(179, 185, 202, 0.05);
+    border-radius: 6px;
+    border: 1px solid #F1F2F6;;
+    width: 62px;
+    height: 22px;
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #818BA7;    
+    cursor: pointer;   
+    margin: 3px; 
+}
+.change-button{
+    background-color: white!important;
+}
+.commit-flow h2{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.flow-commit-bottom button{
+    background: #E9F9D5;
+    box-shadow: 0px 1px 1px rgba(179, 185, 202, 0.05);
+    border-radius: 6px;
+    width: 70px;
+    border: 1px solid #E9F9D5;
+    height: 22px; 
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #7AA93F;   
+}
+.assigment-button h2{
+    font-family:'PT Sans',sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.assigment-button .button-div button{
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #818BA7;    
+    width: 130px;
+    height: 22px;
+    background: #F1F2F6;
+    box-shadow: 0px 1px 1px rgba(179, 185, 202, 0.05);
+    border-radius: 6px;
+}
+.commit-cange-button{
+    background: #FFFFFF;
+    border: 1px solid #D6DAE5!important;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgba(31, 48, 81, 0.05);
+    border-radius: 45px;
+    width: 40px;
+    height: 40px;
 }
