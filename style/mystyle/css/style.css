@@ -715,15 +715,13 @@ button:focus {outline:0;}
     cursor: pointer;
     
 }
+#myDIVc{
+display: none;
+}
 
-.curent-div{
+.create-img-cureent{
     width: 60px;
     height: 60px;
-    margin: auto;
-}
-.create-img-cureent{
-    width: 100%;
-    height: 100%;
     object-fit: contain;
     cursor: pointer;
 }
@@ -746,6 +744,7 @@ button:focus {outline:0;}
     line-height: 16px;
     border: 1px solid #F3F5FA;
     color: #818BA7;
+    margin-top: 5px;
 }
 .create-project-input-big{
     width: 100%;
@@ -812,6 +811,20 @@ button:focus {outline:0;}
     cursor: pointer;
 }
 .flow-plus{
+    background: #F1556B!important;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #F1556B!important;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    padding: 5px 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.flow-pluss{
     background: #F1556B!important;
     border-radius: 6px;
     color: white;
@@ -966,7 +979,7 @@ input[type="range" i] {
     cursor: pointer;
 }
 .edit-files{
-    display: flex;
+    
 }
 .edit-curent-div-file{
     width: 60px;
@@ -985,6 +998,7 @@ input[type="range" i] {
 }
 .edit-file-begin{
     margin-right: 10px;
+    display: inline-block;
 }
 .Assigment-edit{
     width: 100%;
