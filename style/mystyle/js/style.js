@@ -29,23 +29,6 @@ $(document).ready(function(){
     }
   }
 
-
-
-  $(".flow-plus").click(function () {
-    $(".vv").append('<input class="create-project-input form-control pt-1" placeholder="Start typing an employee s last name or nickname"></input> ');
- });
-
- var elet_create=document.querySelector('.flow-butoon')
- $(".flow-pluss").click(function () {
-  $(".flow-bu").append('<button  class="flow-butoon"> Design <i class="fas fa-times"><i/></button>');
-}); 
-
-$(document).ready(function(){
-    $(".fa-times").click(function(){
-      $(this).parent('.flow-butoon').remove();
-    });
-  });
-
   $(document).ready(function(){
     $(".edit-button-img").click(function(){
       $(this).parent('.edit-curent-div-file').parent().remove();
@@ -62,5 +45,52 @@ $(document).ready(function(){
  $(document).ready(function(){
   $(".delete-edit-user").click(function(){
     $(this).parent('.edit-user-delete').remove();
+  });
+});
+
+$('.create-p-sosial').click(function(){
+  $(this).css("background-color", "white");
+});
+
+
+$('.yoxdu-bele').on('keyup',function(e){
+  if(e.keyCode == 13 && $('yoxdu-bele').val() !=" ")
+  {
+    var taskk =$("<button class='flow-butoon'></button>").text($(".yoxdu-bele").val());
+    var delT=$("<span class='ml-3'>x</span>").click(function(){
+      var p = $(this).parent('.flow-butoon').remove(); 
+      
+    });
+    taskk.append(delT);
+    $(".flow-bu").append(taskk);
+    $('.yoxdu-bele').val("");
+  }
+})
+
+$('.asigment-create').on('keyup',function(e){
+  if(e.keyCode == 13 && $('asigment-create').val() !=" ")
+  {
+    var tas =$("<button class='as-bub'></button>").text($(".asigment-create").val());
+    var de=$("<span class='ml-3'>x</span>").click(function(){
+      var p = $(this).parent('.as-bub').remove(); 
+      
+    });
+    tas.append(de);
+    $(".as-b").append(tas);
+    $('.asigment-create').val("");
+  }
+})
+
+$(document).on('input change', '.custom-1', function() {
+  $('.ran-1').html( $(this).val() );
+});
+
+$(document).on('input change', '.custum-2', function() {
+  $('.ran-2').html( $(this).val() );
+});
+
+$(document).ready(function(){
+  $(".asas").click(function(){
+    $(this).parent('.wew').remove();
   });
 });
