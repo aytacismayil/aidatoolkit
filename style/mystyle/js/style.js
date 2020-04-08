@@ -78,33 +78,37 @@ $('.create-p-sosial').click(function(){
 });
 
 
-$('.yoxdu-bele').on('keyup',function(e){
-  if(e.keyCode == 13 && $('yoxdu-bele').val() !=" ")
-  {
-    var taskk =$("<button class='flow-butoon'></button>").text($(".yoxdu-bele").val());
-    var delT=$("<span class='ml-3'>x</span>").click(function(){
-      var p = $(this).parent('.flow-butoon').remove(); 
-      
-    });
-    taskk.append(delT);
-    $(".flow-bu").append(taskk);
-    $('.yoxdu-bele').val("");
-  }
-})
+$(document).ready(myClick);
 
-$('.asigment-create').on('keyup',function(e){
-  if(e.keyCode == 13 && $('asigment-create').val() !=" ")
-  {
+function myClick(){
+  $('#button').click(myAdd);
+  $(document).on('click','.item','flow-butoon',myRemove);
+}
+  function myAdd(){
+  var listItem = $('input[name=textbox]').val();
+  $('.toList').append('<button class="item flow-butoon">' + listItem + '<span class="del ml-3">X</span></button>');
+  $('.yoxdu-bele').val("");
+  }
+
+  
+function myRemove(){
+    $(this).remove();
+}
+
+
+$(document).ready(function(){
+  $("#asigment-create").click(function(){
     var tas =$("<button class='as-bub'></button>").text($(".asigment-create").val());
     var de=$("<span class='ml-3'>x</span>").click(function(){
       var p = $(this).parent('.as-bub').remove(); 
-      
     });
     tas.append(de);
     $(".as-b").append(tas);
     $('.asigment-create').val("");
-  }
-})
+
+  });
+});
+
 
 $(document).on('input change', '.custom-1', function() {
   $('.ran-1').html( $(this).val() );
