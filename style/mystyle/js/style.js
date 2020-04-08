@@ -48,8 +48,33 @@ $(document).ready(function(){
   });
 });
 
+$('.face-create').click(function(){
+  $(this).css("background-color", "#576EA5");
+});
+
+$('.instag-create').click(function(){
+  $(this).css("background-color", " #ED4B61");
+});
+
+$('.you-create').click(function(){
+  $(this).css("background-color", "#FF0000");
+});
+
+$('.vkon-create').click(function(){
+  $(this).css("background-color", "#5181B8");
+});
+
+$('.twither-create').click(function(){
+  $(this).css("background-color", "#41ABE1");
+});
+
+$('.linki-create').click(function(){
+  $(this).css("background-color", "#006394");
+});
+
+
 $('.create-p-sosial').click(function(){
-  $(this).css("background-color", "white");
+  $(this).css("color", "white");
 });
 
 
@@ -94,3 +119,4 @@ $(document).ready(function(){
     $(this).parent('.wew').remove();
   });
 });
+
