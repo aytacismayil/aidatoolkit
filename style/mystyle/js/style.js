@@ -78,36 +78,36 @@ $('.create-p-sosial').click(function(){
 });
 
 
-$(document).ready(myClick);
+// $(document).ready(myClick);
 
-function myClick(){
-  $('#button').click(myAdd);
-  $(document).on('click','.item','flow-butoon',myRemove);
-}
-  function myAdd(){
-  var listItem = $('input[name=textbox]').val();
-  $('.toList').append('<button class="item flow-butoon">' + listItem + '<span class="del ml-3">X</span></button>');
-  $('.yoxdu-bele').val("");
-  }
+// function myClick(){
+//   $('#button').click(myAdd);
+//   $(document).on('click','.item','flow-butoon',myRemove);
+// }
+//   function myAdd(){
+//   var listItem = $('input[name=textbox]').val();
+//   $('.toList').append('<button class="item flow-butoon">' + listItem + '<span class="del ml-3">X</span></button>');
+//   $('.yoxdu-bele').val("");
+//   }
 
   
-function myRemove(){
-    $(this).remove();
-}
+// function myRemove(){
+//     $(this).remove();
+// }
 
 
-$(document).ready(function(){
-  $("#asigment-create").click(function(){
-    var tas =$("<button class='as-bub'></button>").text($(".asigment-create").val());
-    var de=$("<span class='ml-3'>x</span>").click(function(){
-      var p = $(this).parent('.as-bub').remove(); 
-    });
-    tas.append(de);
-    $(".as-b").append(tas);
-    $('.asigment-create').val("");
+// $(document).ready(function(){
+//   $("#asigment-create").click(function(){
+//     var tas =$("<button class='as-bub'></button>").text($(".asigment-create").val());
+//     var de=$("<span class='ml-3'>x</span>").click(function(){
+//       var p = $(this).parent('.as-bub').remove(); 
+//     });
+//     tas.append(de);
+//     $(".as-b").append(tas);
+//     $('.asigment-create').val("");
 
-  });
-});
+//   });
+// });
 
 
 $(document).on('input change', '.custom-1', function() {
@@ -123,4 +123,10 @@ $(document).ready(function(){
     $(this).parent('.wew').remove();
   });
 });
+
+
+$("#asigment-create").click(function () {
+  $(".form-as").append("<input type='text' class='form-control create-project-input pt-2 asigment-create' placeholder='Start typing an employee s last name or nickname'></input>");
+});
+
 
