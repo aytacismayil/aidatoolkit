@@ -82,7 +82,7 @@ let calendarSettings = {
       }
       
       month.innerHTML = calendarTitl+ day
-      week.innerHTML = 'Wednesday'
+    
       plan.innerHTML = 'Plans'
       saveplan.innerHTML = 'Repo12'
       
