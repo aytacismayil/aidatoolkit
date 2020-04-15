@@ -52,6 +52,7 @@ let calendarSettings = {
       let week = document.createElement('div')
       let plan = document.createElement('div')
       let saveplan = document.createElement('div')
+      let saveplans = document.createElement('div')
       var yuxarda=document.querySelector('.calendar-timme');
       yuxarda.innerHTML=calendarTitle;
       
@@ -72,8 +73,9 @@ let calendarSettings = {
       blue.classList.add('calendar-blue')
       month.classList.add('month-week')
       week.classList.add('week-month')
-      plan.classList.add('div-calendar-plan')
+      plan.classList.add('div-calendar-plan','mb-2')
       saveplan.classList.add('save-plan')
+      saveplans.classList.add('save-plan')
 
       if (calendarSettings.today.month() == calendarSettings.date.month() && calendarSettings.today.year() == calendarSettings.date.year()) {
         if (calendarSettings.today.date() == day) {
@@ -84,7 +86,8 @@ let calendarSettings = {
       month.innerHTML = calendarTitl+ day
     
       plan.innerHTML = 'Plans'
-      saveplan.innerHTML = 'Repo12'
+      saveplan.innerHTML = '12 publications'
+      saveplans.innerHTML = '5 sosial networks'
       
       calendarDay.appendChild(row)
       row.appendChild(col3)
@@ -97,7 +100,7 @@ let calendarSettings = {
       col9.appendChild(week)
       col9.appendChild(plan)
       col9.appendChild(saveplan)
-      col9.appendChild(saveplan)
+      col9.appendChild(saveplans)
       calendar.appendChild(calendarDay)
      
     }
