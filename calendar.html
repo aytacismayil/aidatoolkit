@@ -22,9 +22,9 @@
             <img src="./style/mystyle/img/dashboard-logo.png" alt="" class="dashboard-img">
         </a>
         <div class="icon-left">
-            <a href="" class="icon-a " tabindex="0" role="button" data-toggle="popover" data-trigger="focus"
+            <a href="dashboard.html" class="icon-a " tabindex="0" role="button" data-toggle="popover" data-trigger="focus"
                 title="Dismissible popover"><img class="menu-icon-left" src="./style/mystyle/img/layout.png" alt=""></a>
-            <a href="" class="icon-a icon-active" tabindex="0" class="btn btn-lg btn-danger" role="button"
+            <a href="calendar.html" class="icon-a icon-active" tabindex="0" class="btn btn-lg btn-danger" role="button"
                 data-toggle="popover" data-trigger="focus" title="Dismissible popover"><img class="menu-icon-left"
                     src="./style/mystyle/img/calendar.png" alt=""></a>
             <a href="" class="icon-a" tabindex="0" role="button" data-toggle="popover" data-trigger="focus"
@@ -137,28 +137,53 @@
 
         <!-- modal button -->
         <div class="button-open" data-toggle="modal" data-target="#exampleModalCenter">
-            <div class="btn-menu click-open-close btn-menu_active ">
+            <div class="btn-menu c-btn click-open-close btn-menu_active ">
                 <span></span>
             </div>
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade calendar-modal" id="exampleModalCenter" tabindex="-1" data-backdrop="static"
+            role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalCenterTitle b-id"><img
+                                src="./style/mystyle/img/editor-bold.png" alt=""> <span class="ml-2"><img
+                                    src="./style/mystyle/img/editor-italic.png" alt=""></span></h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true"><img src="./style/mystyle/img/happy 1.png" alt=""></span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        ...  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos esse fugit quia nihil placeat illum, iure enim vel explicabo?
+                    <div class="modal-bod pl-2 pr-2">
+                        <textarea class="calendar-input" name="" id="" cols="30" rows="10"
+                            placeholder="📜 Bir yerə toplaşmaq başlanğıc, bir yerdə olmaq irəliləmək, birlikdə işləmək isə uğurdur. (c) Henri Ford"></textarea>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <form>
+                            <div class="row">
+                                <div class="col cla-col">
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Select topic</option>
+                                        <option class="calendar-option-1">Fun facts</option>
+                                        <option class="calendar-option-2">Events</option>
+                                        <option class="calendar-option-3" >Partners info</option>
+
+                                    </select>
+                                </div>
+                                <div class="col cla-col">
+                                    <label  class="label-calendar" for="">SET date</label>
+                                    <input type="text" class="form-control calender-date-input"
+                                        placeholder="dd / mm/yyyy">
+                                </div>
+                                <div class="col cla-col">
+                                    <label class="label-calendar" for="">SET TIME</label>
+                                    <input type="text" class="form-control calender-time-input"
+                                        placeholder="dd / mm / yyyy">
+                                </div>
+                            </div>
+                        </form>
+                        <button type="button" class="btn calander-done" data-dismiss="modal">Done</button>
                     </div>
                 </div>
             </div>

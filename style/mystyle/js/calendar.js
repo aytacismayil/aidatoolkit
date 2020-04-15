@@ -26,9 +26,9 @@ let calendarSettings = {
   
     calendar.innerHTML = ''
     calendar.innerHTML = `
-                          <div class="calendar-nav"><a onClick="decrementMonth()">&lt; </a></div>
+                          <div class="calendar-nav"><a onClick="decrementMonth()"><i class="fas fa-caret-square-left"></i> </a></div>
                           <div class="calendar-title">${calendarTitle}</div>
-                          <div class="calendar-nav calendar-nav__right"><a onClick="incrementMonth()"> &gt;</a></div>
+                          <div class="calendar-nav calendar-nav__right"><a onClick="incrementMonth()"> <i class="fas fa-caret-square-right"></i></a></div>
                           <div class="calendar-dayname">Monday</div>
                           <div class="calendar-dayname">Tuesday</div>
                           <div class="calendar-dayname">Wednesday</div>
