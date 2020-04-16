@@ -120,3 +120,4 @@ let calendarSettings = {
     })
   })
 
+  $('.edit-uppload-calendar').click(function(){ $('#imgupload').trigger('click'); });

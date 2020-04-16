@@ -1680,11 +1680,11 @@ textarea:focus {
     background: #FFFFFF;
     border: 1px dashed #F1556B;
     box-sizing: border-box;
-    border-radius: 10px;    
+    border-radius: 10px;  
+    font-size: 40px; 
+    color: #F1556B;
 }
-.edit-uppload-calendar img{
-    transform: translate(18px, 15px);
-}
+
 .modal-foote{
     position: absolute;
     bottom: 0;
@@ -1719,4 +1719,8 @@ textarea:focus {
     line-height: 21px;
     
     color: #000000;    
+}
+.file-upload{
+    width: 102px;
+    height: 102px;
 }
