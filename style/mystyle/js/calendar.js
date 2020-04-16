@@ -55,6 +55,7 @@ let calendarSettings = {
       let saveplans = document.createElement('div')
       var yuxarda=document.querySelector('.calendar-timme');
       yuxarda.innerHTML=calendarTitle;
+
       
       
 
@@ -66,7 +67,7 @@ let calendarSettings = {
       calendarDay.classList.add('calendar-table')
       row.classList.add('row')
       col3.classList.add("col-3", "col-md-3", "col-lg-3", "col-xl-3")
-      col9.classList.add("col-9", "col-md-9", "col-lg-9", "col-xl-9", "mt-2")
+      col9.classList.add("col-9", "col-md-9", "col-lg-9", "col-xl-9", "mt-2","pr-0","pl-2")
       color.classList.add('calendar-color')
       red.classList.add('calendar-red')
       green.classList.add('calendar-green')
@@ -87,7 +88,10 @@ let calendarSettings = {
     
       plan.innerHTML = 'Plans'
       saveplan.innerHTML = '12 publications'
-      saveplans.innerHTML = '5 sosial networks'
+      saveplans.innerHTML = ''
+      
+      var modalMouth=document.querySelector('.modal-2-mounth');
+      modalMouth.innerHTML=calendarTitle;
       
       calendarDay.appendChild(row)
       row.appendChild(col3)
@@ -104,9 +108,15 @@ let calendarSettings = {
       calendar.appendChild(calendarDay)
      
     }
-
+   
   }
+  
   
   displayCalendar(calendarSettings);
   
-  
+  $(document).ready(function(){
+    $('.save-plan').on('click', function(){
+  $('#exampleModalLong').modal('show');
+    })
+  })
+

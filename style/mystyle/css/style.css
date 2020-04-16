@@ -1422,6 +1422,7 @@ input[type="range" i] {
     font-weight: bold;
     line-height: 39px;
     margin-right: 30px;
+    width: 115px;
 }
 .calendar-table{
     display: inline-block;
@@ -1490,6 +1491,7 @@ input[type="range" i] {
     font-size: 12px;
     line-height: 16px;
     color: #818BA7;
+    cursor: pointer;
 }
 .calendar-grid {
 
@@ -1499,14 +1501,13 @@ input[type="range" i] {
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 3em 2em;
     grid-auto-rows: 1fr;
-  
-  }
+}
 
-  .first-day {
+.first-day {
     grid-column-start: 4;
-  }
+}
 
-  .calendar-dayname {
+.calendar-dayname {
     padding:.2em;
     text-align:center;
     background:#F1556B;
@@ -1514,13 +1515,13 @@ input[type="range" i] {
     font-family: 'PT Sans', sans-serif;
     font-style: normal;
     border-radius: 10px;
-  }
+}
   
-  .calendar-title {
+.calendar-title {
     text-align:center;
     grid-column: 2 / -2;
     font-size: 2em;
-  }
+}
   
 .calendar-nav a {
     display:block;
@@ -1653,7 +1654,7 @@ textarea:focus {
     width: 129.41px!important;
     height: 25px!important;
     padding: 20px;
-    background: #87C735;
+    background: #D40C00;
     border-radius: 10px;
     font-family: 'PT Sans', sans-serif;
     font-style: normal;
@@ -1664,12 +1665,58 @@ textarea:focus {
     color: #FFFFFF;    
 }
 .calendar-option-2{
-    background: #D40C00;
+    background: #682CBF;
     border-radius: 10px;
     color: #FFFFFF; 
 }
 .calendar-option-3{
-    background: #682CBF;
+    background: #00A5F9;
     border-radius: 10px;
     color: #FFFFFF; 
+}
+.edit-uppload-calendar{
+    width: 102px;
+    height: 102px;  
+    background: #FFFFFF;
+    border: 1px dashed #F1556B;
+    box-sizing: border-box;
+    border-radius: 10px;    
+}
+.edit-uppload-calendar img{
+    transform: translate(18px, 15px);
+}
+.modal-foote{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.modal-calendar-dialoq{
+    max-width: 650px;
+}
+.modal-close-btnn{
+    width: 150px;
+    height: 44px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F1556B;
+    box-shadow: 0px 4px 10px rgba(216, 57, 79, 0.25);
+    border-radius: 10px;
+    margin-left: 20px!important;    
+}
+.modal-close-btnn:hover{
+   color: white;
+}
+.modal-2-mounth{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #000000;    
 }
